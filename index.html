@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Понятный справочник по GCam: возможности Google Camera, установка портов, XML-конфигурации и решение проблем.">
+  <meta name="theme-color" content="#101522">
+  <title>GCAM GUIDE — камера смартфона без секретов</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="GCAM GUIDE — главная">
+      <span class="brand-mark">G</span><span>GCAM <b>GUIDE</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#about">Что такое GCam</a>
+      <a href="#features">Возможности</a>
+      <a href="#install">Установка</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">НЕЗАВИСИМЫЙ СПРАВОЧНИК</span>
+        <h1>Раскрой возможности камеры своего смартфона</h1>
+        <p>Разбираемся, что такое GCam, как подобрать совместимую версию и настроить камеру для красивых фотографий.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#install">Начать установку <span aria-hidden="true">→</span></a>
+          <a class="button secondary" href="#features">Изучить возможности</a>
+        </div>
+        <p class="hero-note">Android · Порты GCam · XML-конфигурации</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Абстрактная иллюстрация объектива камеры">
+        <div class="lens lens-one"><div class="lens lens-two"><div class="lens-center"></div></div></div>
+        <span class="art-label">SEE MORE.</span>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">01 / ЗНАКОМСТВО</span>
+        <h2>Что такое GCam?</h2>
+      </div>
+      <div class="intro-copy">
+        <p><strong>GCam</strong> — распространённое название приложения камеры Google и его неофициальных портов для некоторых Android-смартфонов. Оно использует вычислительную фотографию: программную обработку одного или нескольких кадров, чтобы улучшить итоговый снимок.</p>
+        <p>Порт — это версия приложения, адаптированная энтузиастами для устройств, отличных от поддерживаемых Google Pixel. Совместимость не универсальна: результат зависит от модели смартфона, версии Android, доступных камер и конкретной сборки.</p>
+        <div class="notice"><strong>Важно:</strong> GCam не гарантирует улучшение снимков на каждом телефоне. Иногда штатная камера работает стабильнее или предоставляет больше функций.</div>
+      </div>
+    </section>
+
+    <section class="section features-section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">02 / ВОЗМОЖНОСТИ</span>
+        <h2>Что можно получить</h2>
+        <p class="section-lead">Доступность режимов зависит от версии приложения и смартфона.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon">✦</span>
+          <h3>HDR+</h3>
+          <p>Обработка серии кадров помогает сохранить детали в светлых и тёмных областях сцены.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">☾</span>
+          <h3>Ночная съёмка</h3>
+          <p>Специальная обработка может сделать ночные кадры светлее и уменьшить визуальный шум.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">◎</span>
+          <h3>Портреты</h3>
+          <p>На поддерживаемых устройствах доступны портретные режимы и программное размытие фона.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">⌁</span>
+          <h3>Настройки и XML</h3>
+          <p>Некоторые порты позволяют загружать конфигурации для изменения параметров обработки.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section install-section" id="install">
+      <div class="section-heading">
+        <span class="eyebrow">03 / ПОШАГОВАЯ ИНСТРУКЦИЯ</span>
+        <h2>Как установить GCam</h2>
+        <p class="section-lead">Перед установкой запиши точную модель телефона и версию Android.</p>
+      </div>
+      <ol class="steps">
+        <li><span class="step-number">01</span><div><h3>Узнай модель смартфона</h3><p>Открой <b>Настройки → О телефоне</b>. Запиши название модели, версию Android и, если доступно, номер сборки.</p></div></li>
+        <li><span class="step-number">02</span><div><h3>Найди совместимый порт</h3><p>Ищи сборку именно для своей модели или семейства устройств. Сверяйся с описанием автора, списком известных проблем и отзывами пользователей.</p></div></li>
+        <li><span class="step-number">03</span><div><h3>Скачай APK из проверенного источника</h3><p>Предпочитай страницу разработчика порта или хорошо известный профиль проекта. Не устанавливай случайные файлы из рекламных зеркал и не отключай защиту устройства без необходимости.</p></div></li>
+        <li><span class="step-number">04</span><div><h3>Установи приложение</h3><p>Открой скачанный APK и следуй подсказкам Android. Если система попросит разрешить установку из этого источника, разрешай её только для приложения, которому доверяешь, а после установки отключи разрешение.</p></div></li>
+        <li><span class="step-number">05</span><div><h3>Проверь камеру</h3><p>Открой GCam, предоставь необходимые разрешения и сделай несколько тестовых фото: днём, в помещении и ночью. Проверь фокус, сохранение снимков, фронтальную и дополнительные камеры.</p></div></li>
+        <li><span class="step-number">06</span><div><h3>При необходимости импортируй XML</h3><p>Используй конфигурацию, предназначенную для твоей модели и версии порта. Инструкции по импорту различаются: смотри руководство автора конкретной сборки. Перед изменением настроек сохрани исходную конфигурацию, если такая возможность есть.</p></div></li>
+      </ol>
+      <div class="notice warning"><strong>Безопасность:</strong> не выдавай приложению лишние разрешения, не устанавливай APK с неизвестным происхождением и не отключай Google Play Protect ради сомнительной сборки.</div>
+    </section>
+
+    <section class="section troubleshooting">
+      <div class="section-heading">
+        <span class="eyebrow">04 / ПОМОЩЬ</span>
+        <h2>Если что-то не работает</h2>
+      </div>
+      <div class="problem-list">
+        <details><summary>Приложение закрывается сразу после запуска</summary><p>Возможна несовместимость порта с устройством или Android. Удали проблемную сборку, перезагрузи телефон и попробуй версию, которую автор указывает как совместимую. Перед удалением сохрани нужные настройки.</p></details>
+        <details><summary>Не работает широкоугольная или фронтальная камера</summary><p>Не все порты поддерживают все физические камеры. Проверь список совместимости и обсуждения именно своей модели. Не меняй случайные системные параметры по инструкциям для другого устройства.</p></details>
+        <details><summary>Фотографии получаются слишком тёмными или с неправильными цветами</summary><p>Сбрось настройки порта к стандартным, проверь другую конфигурацию для своей модели и сравни результат со штатной камерой. XML для другого телефона может ухудшить изображение.</p></details>
+        <details><summary>Не удаётся импортировать XML</summary><p>Убедись, что конфигурация предназначена для установленной версии GCam. Следуй инструкции именно к своему порту: папка и способ импорта могут отличаться.</p></details>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="section-heading">
+        <span class="eyebrow">05 / FAQ</span>
+        <h2>Частые вопросы</h2>
+      </div>
+      <div class="faq-grid">
+        <article><h3>Подходит ли GCam для любого Android?</h3><p>Нет. Запуск и набор функций зависят от смартфона, версии Android и поддержки Camera2 API.</p></article>
+        <article><h3>Нужен ли root?</h3><p>Для обычной установки APK чаще всего не нужен. Некоторые функции и модификации могут иметь дополнительные требования.</p></article>
+        <article><h3>GCam лучше штатной камеры?</h3><p>Не всегда. Сравнивай результаты на своём устройстве: обработка, скорость, видео и доступные камеры могут отличаться.</p></article>
+        <article><h3>Что такое XML?</h3><p>Это файл настроек для некоторых портов GCam. Он не является универсальным и должен соответствовать версии приложения и устройству.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home"><span class="brand-mark">G</span><span>GCAM <b>GUIDE</b></span></a>
+    <p>Независимый информационный проект для пользователей Android.</p>
+    <p class="disclaimer">GCAM GUIDE не является официальным продуктом Google и не связан с Google LLC. Названия и товарные знаки принадлежат их правообладателям.</p>
+    <a href="#home" class="back-top">Наверх ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
